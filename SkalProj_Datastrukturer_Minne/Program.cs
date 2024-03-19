@@ -4,6 +4,23 @@ namespace SkalProj_Datastrukturer_Minne
 {
     class Program
     {
+        /*
+         * Frågor
+         * 1.Hur fungerar stacken och heapen? Förklara gärna med exempel eller skiss på dess 
+grundläggande funktion Till example kan man lagra variable som namn,ålder,kön för varje person i person Lista 
+SVAR: Stacken anvävder för att hantera funktioner och metoden. LIFO-princicipe
+        heapen använder för att lagra objekten och den är inte organiserad. Till example man kan lagra objekt person och kan ha mer detaljer för varje objekt person.
+
+        
+        2. Vad är Value Types respektive Reference Types och vad skiljer dem åt?
+           SVAR: Value type lagras direkt och kopiera när de tilldelas till annan variable.
+                 Refrens type lagrar en referans och delar samma information 
+
+        3. Följande metoder (se bild nedan) genererar olika svar. Den första returnerar 3, den 
+andra returnerar 4, varför? 
+        SVAR: första metoden använder value types och i den andra använd refrens type.  x och y pekar på samma objekt och ändringar påverkar båda variablerna. Det är därför den första metoden returnerar 3 och den andra metoden returnerar 4.
+         */
+
         static Queue<string> ICAKo = new Queue<string>();
         /// <summary>
         /// The main method, vill handle the menues for the program
